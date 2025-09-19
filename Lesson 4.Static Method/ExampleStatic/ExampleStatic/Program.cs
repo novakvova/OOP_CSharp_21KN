@@ -17,17 +17,25 @@ Console.OutputEncoding = Encoding.UTF8;
 //Console.WriteLine($"age = {age}");
 
 //Ми використали клас Faker з бібліотеки Bogus
-Faker faker = new Faker("uk"); 
-string lastName = faker.Name.LastName(); //Прізвище 
-string firstName = faker.Name.FirstName(); //Ім'я
-int age = faker.Random.Int(18, 60); //Вік від 18 до 60 років
+//Faker faker = new Faker("uk"); 
+//string lastName = faker.Name.LastName(); //Прізвище 
+//string firstName = faker.Name.FirstName(); //Ім'я
+//int age = faker.Random.Int(18, 60); //Вік від 18 до 60 років
 
-Man ivan = new Man();
-Man petro = new Man();
-Man vova = new Man(firstName,lastName, age);
+//Man ivan = new Man();
+//Man petro = new Man();
+//Man vova = new Man(firstName,lastName, age);
 
-Console.WriteLine(vova);
+//Console.WriteLine(vova);
 
-Man.Info();
-int count = Man.GetCounter();
-Console.WriteLine("Counter Man = {0}", count);
+//Man.Info();
+//int count = Man.GetCounter();
+//Console.WriteLine("Counter Man = {0}", count);
+
+//var list = ManService.GetRandomMan(20);
+Man[] list = ManService.GetRandomMan(20);
+
+foreach (var item in list)
+{
+    Console.WriteLine(item);
+}

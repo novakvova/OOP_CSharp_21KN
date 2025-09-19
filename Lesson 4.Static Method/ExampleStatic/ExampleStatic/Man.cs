@@ -1,8 +1,12 @@
-﻿namespace ExampleStatic;
+﻿using static Bogus.DataSets.Name;
+
+namespace ExampleStatic;
 
 public class Man
 {
     private string _firstName;
+
+    //public Gender Gender { get; set; }
 
     public string FirstName
     {
