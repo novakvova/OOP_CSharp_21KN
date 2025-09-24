@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleLib", "ExampleLib\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalculator", "MyCalculator\MyCalculator.csproj", "{66DE0ECE-DBE8-41AE-ABC0-CD93F357AB62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Privat24", "Privat24\Privat24.csproj", "{1D755CC6-ECF7-40DC-8E7B-5BC09713C1F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{66DE0ECE-DBE8-41AE-ABC0-CD93F357AB62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66DE0ECE-DBE8-41AE-ABC0-CD93F357AB62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66DE0ECE-DBE8-41AE-ABC0-CD93F357AB62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D755CC6-ECF7-40DC-8E7B-5BC09713C1F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D755CC6-ECF7-40DC-8E7B-5BC09713C1F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D755CC6-ECF7-40DC-8E7B-5BC09713C1F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D755CC6-ECF7-40DC-8E7B-5BC09713C1F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
