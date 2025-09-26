@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TEACHER\\Desktop\\Vova\\OOP\\Lesson 7. SMTP\\ExampleSMTP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E24821-5039-4B1A-B464-978B7A6A6FBE}|ExampleSMTP\\ExampleSMTP.csproj|c:\\users\\teacher\\desktop\\vova\\oop\\lesson 7. smtp\\examplesmtp\\examplesmtp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4E24821-5039-4B1A-B464-978B7A6A6FBE}|ExampleSMTP\\ExampleSMTP.csproj|solutionrelative:examplesmtp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 146,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TEACHER\\Desktop\\Vova\\OOP\\Lesson 7. SMTP\\ExampleSMTP\\ExampleSMTP\\Program.cs",
+              "RelativeDocumentMoniker": "ExampleSMTP\\Program.cs",
+              "ToolTip": "C:\\Users\\TEACHER\\Desktop\\Vova\\OOP\\Lesson 7. SMTP\\ExampleSMTP\\ExampleSMTP\\Program.cs",
+              "RelativeToolTip": "ExampleSMTP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T06:24:02.624Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
