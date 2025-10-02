@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|d:\\study\\kodedj\\2025-2025\\2.oop charp\\oop_csharp_21kn\\lesson 8.inheritancedetails\\inhritancedetails\\inhritancedetails\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|solutionrelative:inhritancedetails\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|d:\\study\\kodedj\\2025-2025\\2.oop charp\\oop_csharp_21kn\\lesson 8.inheritancedetails\\inhritancedetails\\inhritancedetails\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|solutionrelative:inhritancedetails\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|d:\\study\\kodedj\\2025-2025\\2.oop charp\\oop_csharp_21kn\\lesson 8.inheritancedetails\\inhritancedetails\\inhritancedetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|solutionrelative:inhritancedetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|d:\\study\\kodedj\\2025-2025\\2.oop charp\\oop_csharp_21kn\\lesson 8.inheritancedetails\\inhritancedetails\\testpartial\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|solutionrelative:testpartial\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|d:\\study\\kodedj\\2025-2025\\2.oop charp\\oop_csharp_21kn\\lesson 8.inheritancedetails\\inhritancedetails\\testpartial\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|solutionrelative:testpartial\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\testpartial\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|solutionrelative:testpartial\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|d:\\study\\kodedj\\2025-2025\\2.oop charp\\oop_csharp_21kn\\lesson 8.inheritancedetails\\inhritancedetails\\testpartial\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{2E15D733-79A0-4F5B-8892-547D6ACBB5AF}|TestPartial\\TestPartial.csproj|solutionrelative:testpartial\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|d:\\study\\kodedj\\2025-2025\\2.oop charp\\oop_csharp_21kn\\lesson 8.inheritancedetails\\inhritancedetails\\inhritancedetails\\bolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1187BB4D-ACE6-4291-81E1-B8FEBBB5606D}|InhritanceDetails\\InhritanceDetails.csproj|solutionrelative:inhritancedetails\\bolt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Student.cs",
+              "RelativeDocumentMoniker": "InhritanceDetails\\Student.cs",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Student.cs",
+              "RelativeToolTip": "InhritanceDetails\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:07:34.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Person.cs",
+              "RelativeDocumentMoniker": "InhritanceDetails\\Person.cs",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Person.cs",
+              "RelativeToolTip": "InhritanceDetails\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:04:38.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TestPartial\\Form1.Designer.cs",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.Designer.cs",
+              "RelativeToolTip": "TestPartial\\Form1.Designer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAzwCkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:59:50.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.cs",
+              "RelativeDocumentMoniker": "TestPartial\\Form1.cs",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.cs",
+              "RelativeToolTip": "TestPartial\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:55:44.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.resx",
+              "RelativeDocumentMoniker": "TestPartial\\Form1.resx",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.resx",
+              "RelativeToolTip": "TestPartial\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-30T09:52:46.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.cs",
+              "RelativeDocumentMoniker": "TestPartial\\Form1.cs",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\TestPartial\\Form1.cs [Design]",
+              "RelativeToolTip": "TestPartial\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:51:33.742Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bolt.cs",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Bolt.cs",
+              "RelativeDocumentMoniker": "InhritanceDetails\\Bolt.cs",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Bolt.cs",
+              "RelativeToolTip": "InhritanceDetails\\Bolt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:36:23.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Program.cs",
+              "RelativeDocumentMoniker": "InhritanceDetails\\Program.cs",
+              "ToolTip": "D:\\Study\\Kodedj\\2025-2025\\2.OOP Charp\\OOP_CSharp_21KN\\Lesson 8.InheritanceDetails\\InhritanceDetails\\InhritanceDetails\\Program.cs",
+              "RelativeToolTip": "InhritanceDetails\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwBMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:27:52.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

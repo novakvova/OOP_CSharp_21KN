@@ -1,0 +1,17 @@
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\bin\Debug\net9.0-windows\TestPartial.exe
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\bin\Debug\net9.0-windows\TestPartial.deps.json
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\bin\Debug\net9.0-windows\TestPartial.runtimeconfig.json
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\bin\Debug\net9.0-windows\TestPartial.dll
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\bin\Debug\net9.0-windows\TestPartial.pdb
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.Form1.resources
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.csproj.GenerateResource.cache
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.AssemblyInfoInputs.cache
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.AssemblyInfo.cs
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.csproj.CoreCompileInputs.cache
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.sourcelink.json
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.dll
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\refint\TestPartial.dll
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.pdb
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\TestPartial.genruntimeconfig.cache
+D:\Study\Kodedj\2025-2025\2.OOP Charp\OOP_CSharp_21KN\Lesson 8.InheritanceDetails\InhritanceDetails\TestPartial\obj\Debug\net9.0-windows\ref\TestPartial.dll

@@ -1,0 +1,14 @@
+Зробити клас Student,який наслідує клас Person
+і використовує ключове слова base при роботі конструктора.
+У класі Person зробити метод Print - який виводить інформацію про Person
+У класі Student даний метод перевизначити за допомогою ключового слова ovveride.
+
+Створити клас ScoolStudent, який наслідує Person.
+
+Перевірити як працює наступний код.
+
+Person p = new Student();
+p.PrintInfo();
+
+Person dima = new ScoolStudent();
+dima.PrintInfo();
