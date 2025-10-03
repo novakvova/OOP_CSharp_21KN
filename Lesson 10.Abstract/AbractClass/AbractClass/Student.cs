@@ -19,9 +19,11 @@ public class Student : Person
 
     public override void ViewInfo()
     {
+        Console.ForegroundColor = ConsoleColor.Green;
         base.ViewInfo();
         string strDate = _entryDate.ToString("dd.MM.yyyy");
         Console.WriteLine("Дата вступу: " + strDate);
         Console.WriteLine("Група: " + _group);
+        Console.ForegroundColor= ConsoleColor.White;
     }
 }
