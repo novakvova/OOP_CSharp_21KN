@@ -1,0 +1,46 @@
+﻿namespace ExampleCollection;
+
+public class MyGeneric
+{
+    private object[] list;
+
+    public MyGeneric()
+    {
+        list = new object[0];
+    }
+
+    public void Add(object item)
+    {
+        int n = list.Length;
+        object[] temp = new object[n+1];
+        for(int i = 0; i < n; i++)
+        {
+            temp[i] = list[i];
+        }
+        temp[n] = item;
+        list = temp;
+    }
+
+    public void ViewItems()
+    {
+        foreach(object item in list)
+            Console.WriteLine(item);
+    }
+
+    public int SearchIndex(object itemSearch)
+    {
+        for (int i = 0; i < list.Length; i++)
+        {
+            var item = list[i];
+            if(item.Equals(itemSearch))
+                return i;
+        }
+        //якщо не знайшли
+        return -1;
+    }
+
+    public void Clear()
+    {
+        list = new object[0];
+    }
+}

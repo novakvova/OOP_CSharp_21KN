@@ -1,0 +1,22 @@
+На основі класнові класно роботи у Вас мають
+працювати і буде реалізовані натсупні методи
+
+ /// <summary>
+ /// Записує усіх користувачів у файл
+ /// </summary>
+ /// <param name="stream">Вказівник на потік</param>
+ public void WriteAllToFile(Stream stream)
+ {
+
+ }
+ /// <summary>
+ /// Читання із файлу через потік
+ /// </summary>
+ /// <param name="stream">Вказівник на потік</param>
+ public void ReadAllFile(Stream stream)
+ {
+
+ }
+
+Після читання має працювати
+ShowAll()
