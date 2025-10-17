@@ -39,9 +39,10 @@
             // 
             btnPlus.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnPlus.ForeColor = Color.Blue;
-            btnPlus.Location = new Point(680, 27);
+            btnPlus.Location = new Point(544, 22);
+            btnPlus.Margin = new Padding(2, 2, 2, 2);
             btnPlus.Name = "btnPlus";
-            btnPlus.Size = new Size(65, 62);
+            btnPlus.Size = new Size(52, 50);
             btnPlus.TabIndex = 0;
             btnPlus.Text = "+";
             btnPlus.UseVisualStyleBackColor = true;
@@ -50,18 +51,20 @@
             // txtA
             // 
             txtA.Font = new Font("Segoe UI", 14F);
-            txtA.Location = new Point(45, 27);
+            txtA.Location = new Point(36, 22);
+            txtA.Margin = new Padding(2, 2, 2, 2);
             txtA.Name = "txtA";
-            txtA.Size = new Size(237, 45);
+            txtA.Size = new Size(190, 39);
             txtA.TabIndex = 1;
             // 
             // btnMinus
             // 
             btnMinus.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
             btnMinus.ForeColor = Color.Blue;
-            btnMinus.Location = new Point(680, 108);
+            btnMinus.Location = new Point(544, 86);
+            btnMinus.Margin = new Padding(2, 2, 2, 2);
             btnMinus.Name = "btnMinus";
-            btnMinus.Size = new Size(65, 62);
+            btnMinus.Size = new Size(52, 50);
             btnMinus.TabIndex = 2;
             btnMinus.Text = "-";
             btnMinus.UseVisualStyleBackColor = true;
@@ -70,9 +73,10 @@
             // txtB
             // 
             txtB.Font = new Font("Segoe UI", 14F);
-            txtB.Location = new Point(307, 27);
+            txtB.Location = new Point(246, 22);
+            txtB.Margin = new Padding(2, 2, 2, 2);
             txtB.Name = "txtB";
-            txtB.Size = new Size(237, 45);
+            txtB.Size = new Size(190, 39);
             txtB.TabIndex = 3;
             // 
             // lbResult
@@ -80,22 +84,24 @@
             lbResult.AutoSize = true;
             lbResult.Font = new Font("Segoe UI", 21F, FontStyle.Bold);
             lbResult.ForeColor = Color.Coral;
-            lbResult.Location = new Point(45, 108);
+            lbResult.Location = new Point(36, 86);
+            lbResult.Margin = new Padding(2, 0, 2, 0);
             lbResult.Name = "lbResult";
-            lbResult.Size = new Size(145, 57);
+            lbResult.Size = new Size(120, 47);
             lbResult.TabIndex = 4;
             lbResult.Text = "label1";
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(lbResult);
             Controls.Add(txtB);
             Controls.Add(btnMinus);
             Controls.Add(txtA);
             Controls.Add(btnPlus);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "MainForm";
             Text = "Калькулятор";
             ResumeLayout(false);
