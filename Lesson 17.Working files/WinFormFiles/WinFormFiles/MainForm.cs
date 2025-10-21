@@ -11,7 +11,8 @@ namespace WinFormFiles
 
             if(File.Exists(noImage))
             {
-                MessageBox.Show("Файл зображення для відсутніх зображень знайдено.");
+                pbImage.Image = Image.FromFile(noImage);
+                //MessageBox.Show("Файл зображення для відсутніх зображень знайдено.");
             }
             else
             {
