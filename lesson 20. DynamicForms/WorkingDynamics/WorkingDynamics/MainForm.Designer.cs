@@ -28,18 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txtCount = new TextBox();
+            txtN = new TextBox();
             label1 = new Label();
             btnBuilder = new Button();
             btnCalculation = new Button();
+            txtM = new TextBox();
             SuspendLayout();
             // 
-            // txtCount
+            // txtN
             // 
-            txtCount.Location = new Point(36, 63);
-            txtCount.Name = "txtCount";
-            txtCount.Size = new Size(288, 39);
-            txtCount.TabIndex = 0;
+            txtN.Location = new Point(36, 63);
+            txtN.Name = "txtN";
+            txtN.Size = new Size(174, 39);
+            txtN.TabIndex = 0;
             // 
             // label1
             // 
@@ -54,7 +55,7 @@
             // 
             // btnBuilder
             // 
-            btnBuilder.Location = new Point(350, 49);
+            btnBuilder.Location = new Point(405, 56);
             btnBuilder.Name = "btnBuilder";
             btnBuilder.Size = new Size(124, 53);
             btnBuilder.TabIndex = 2;
@@ -64,7 +65,7 @@
             // 
             // btnCalculation
             // 
-            btnCalculation.Location = new Point(495, 49);
+            btnCalculation.Location = new Point(550, 56);
             btnCalculation.Name = "btnCalculation";
             btnCalculation.Size = new Size(159, 53);
             btnCalculation.TabIndex = 3;
@@ -72,15 +73,23 @@
             btnCalculation.UseVisualStyleBackColor = true;
             btnCalculation.Click += btnCalculation_Click;
             // 
+            // txtM
+            // 
+            txtM.Location = new Point(241, 63);
+            txtM.Name = "txtM";
+            txtM.Size = new Size(150, 39);
+            txtM.TabIndex = 4;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1086, 541);
+            Controls.Add(txtM);
             Controls.Add(btnCalculation);
             Controls.Add(btnBuilder);
             Controls.Add(label1);
-            Controls.Add(txtCount);
+            Controls.Add(txtN);
             Font = new Font("Segoe UI", 12F);
             Margin = new Padding(5);
             Name = "MainForm";
@@ -91,9 +100,10 @@
 
         #endregion
 
-        private TextBox txtCount;
+        private TextBox txtN;
         private Label label1;
         private Button btnBuilder;
         private Button btnCalculation;
+        private TextBox txtM;
     }
 }
