@@ -33,6 +33,8 @@
             btnBuilder = new Button();
             btnCalculation = new Button();
             txtM = new TextBox();
+            gbA = new GroupBox();
+            cbRows = new ComboBox();
             SuspendLayout();
             // 
             // txtN
@@ -80,11 +82,31 @@
             txtM.Size = new Size(150, 39);
             txtM.TabIndex = 4;
             // 
+            // gbA
+            // 
+            gbA.Location = new Point(36, 136);
+            gbA.Name = "gbA";
+            gbA.Size = new Size(373, 248);
+            gbA.TabIndex = 5;
+            gbA.TabStop = false;
+            gbA.Text = "Матриця А";
+            // 
+            // cbRows
+            // 
+            cbRows.FormattingEnabled = true;
+            cbRows.Location = new Point(761, 63);
+            cbRows.Name = "cbRows";
+            cbRows.Size = new Size(182, 40);
+            cbRows.TabIndex = 6;
+            cbRows.SelectedIndexChanged += cbRows_SelectedIndexChanged;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1086, 541);
+            Controls.Add(cbRows);
+            Controls.Add(gbA);
             Controls.Add(txtM);
             Controls.Add(btnCalculation);
             Controls.Add(btnBuilder);
@@ -105,5 +127,7 @@
         private Button btnBuilder;
         private Button btnCalculation;
         private TextBox txtM;
+        private GroupBox gbA;
+        private ComboBox cbRows;
     }
 }

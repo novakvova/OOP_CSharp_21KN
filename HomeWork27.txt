@@ -1,0 +1,3 @@
+Побудувати динамічний інтерфейс Windows Form для роботи над матрицями.
+Має бути аналогічно як на сайті із калькулятором
+https://ua.onlinemschool.com/math/assistance/matrix/calc/
