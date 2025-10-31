@@ -43,7 +43,7 @@
             msMain.Location = new Point(0, 0);
             msMain.Name = "msMain";
             msMain.Padding = new Padding(5, 2, 0, 2);
-            msMain.Size = new Size(640, 28);
+            msMain.Size = new Size(1095, 28);
             msMain.TabIndex = 0;
             msMain.Text = "menuStrip1";
             // 
@@ -80,7 +80,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            ClientSize = new Size(1095, 623);
             Controls.Add(msMain);
             MainMenuStrip = msMain;
             Margin = new Padding(2);

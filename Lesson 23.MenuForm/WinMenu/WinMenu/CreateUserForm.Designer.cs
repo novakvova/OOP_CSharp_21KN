@@ -122,6 +122,7 @@
             pbImage.Location = new Point(411, 123);
             pbImage.Name = "pbImage";
             pbImage.Size = new Size(245, 205);
+            pbImage.SizeMode = PictureBoxSizeMode.StretchImage;
             pbImage.TabIndex = 8;
             pbImage.TabStop = false;
             // 
@@ -151,6 +152,7 @@
             btnSelect.TabIndex = 11;
             btnSelect.Text = "Обрати фото";
             btnSelect.UseVisualStyleBackColor = true;
+            btnSelect.Click += btnSelect_Click;
             // 
             // btnCreate
             // 
@@ -192,6 +194,7 @@
             Font = new Font("Segoe UI", 12F);
             Margin = new Padding(4);
             Name = "CreateUserForm";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "Створити користувача";
             ((System.ComponentModel.ISupportInitialize)pbImage).EndInit();
             ResumeLayout(false);

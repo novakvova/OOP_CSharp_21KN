@@ -16,5 +16,17 @@ namespace WinMenu
         {
             InitializeComponent();
         }
+
+        private void btnSelect_Click(object sender, EventArgs e)
+        {
+            //Відкриваємо форму для вибору файлу
+            OpenFileDialog dlg = new OpenFileDialog();
+            if (dlg.ShowDialog() == DialogResult.OK)
+            {
+                txtImage.Text =  dlg.FileName;
+                pbImage.Image = Image.FromFile(dlg.FileName);
+            }
+
+        }
     }
 }
