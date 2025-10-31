@@ -23,5 +23,11 @@ namespace WinMenu
                 e.Cancel = true;
             }
         }
+
+        private void smMain_OperationsCreateUser_Click(object sender, EventArgs e)
+        {
+            CreateUserForm dlg = new CreateUserForm();
+            dlg.ShowDialog();
+        }
     }
 }
