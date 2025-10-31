@@ -40,7 +40,8 @@
             msMain.Items.AddRange(new ToolStripItem[] { msMain_File });
             msMain.Location = new Point(0, 0);
             msMain.Name = "msMain";
-            msMain.Size = new Size(800, 33);
+            msMain.Padding = new Padding(5, 2, 0, 2);
+            msMain.Size = new Size(640, 28);
             msMain.TabIndex = 0;
             msMain.Text = "menuStrip1";
             // 
@@ -48,26 +49,28 @@
             // 
             msMain_File.DropDownItems.AddRange(new ToolStripItem[] { msMain_FileExit });
             msMain_File.Name = "msMain_File";
-            msMain_File.Size = new Size(54, 29);
+            msMain_File.Size = new Size(46, 24);
             msMain_File.Text = "File";
             // 
             // msMain_FileExit
             // 
             msMain_FileExit.Name = "msMain_FileExit";
             msMain_FileExit.ShortcutKeys = Keys.Control | Keys.X;
-            msMain_FileExit.Size = new Size(270, 34);
+            msMain_FileExit.Size = new Size(224, 26);
             msMain_FileExit.Text = "Exit";
             msMain_FileExit.Click += msMain_FileExit_Click;
             // 
             // MainForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(msMain);
             MainMenuStrip = msMain;
+            Margin = new Padding(2, 2, 2, 2);
             Name = "MainForm";
             Text = "Form1";
+            FormClosing += MainForm_FormClosing;
             msMain.ResumeLayout(false);
             msMain.PerformLayout();
             ResumeLayout(false);

@@ -12,5 +12,16 @@ namespace WinMenu
             //MessageBox.Show("Виходимо із програми");
             Application.Exit();
         }
+
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult action = MessageBox.Show("Чи дійсно ви хочете вийти?",
+                "Підтвердження виходу",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (action == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }
