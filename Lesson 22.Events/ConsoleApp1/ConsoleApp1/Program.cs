@@ -19,6 +19,7 @@ void DisplayAutoErrorInfo(string info) //Диплей автомобіля
 //Створюємо об'єкт автомобіля
 Car car = new Car("BMW", 240);
 car.RegisterDisplayAuto(DisplayAutoInfo); //підключили дисплей для авто
-car.RegisterDisplayProplemAuto(DisplayAutoErrorInfo); //підключили дисплей для проблем авто
+//car.RegisterDisplayProplemAuto(DisplayAutoErrorInfo); //підключили дисплей для проблем авто
+car.displayProplemInfoCallback += DisplayAutoErrorInfo; //підключили дисплей для проблем авто
 car.Run(50);
 car.Run(200); //збільшили швидкість на 200 км/год
