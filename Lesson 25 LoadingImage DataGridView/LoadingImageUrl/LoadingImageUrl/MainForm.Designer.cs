@@ -28,12 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            pbImage = new PictureBox();
+            btnLoadUrl = new Button();
+            ((System.ComponentModel.ISupportInitialize)pbImage).BeginInit();
+            SuspendLayout();
+            // 
+            // pbImage
+            // 
+            pbImage.Location = new Point(40, 67);
+            pbImage.Margin = new Padding(2, 2, 2, 2);
+            pbImage.Name = "pbImage";
+            pbImage.Size = new Size(276, 293);
+            pbImage.SizeMode = PictureBoxSizeMode.StretchImage;
+            pbImage.TabIndex = 0;
+            pbImage.TabStop = false;
+            // 
+            // btnLoadUrl
+            // 
+            btnLoadUrl.Location = new Point(344, 67);
+            btnLoadUrl.Margin = new Padding(2, 2, 2, 2);
+            btnLoadUrl.Name = "btnLoadUrl";
+            btnLoadUrl.Size = new Size(189, 51);
+            btnLoadUrl.TabIndex = 1;
+            btnLoadUrl.Text = "Завантажити";
+            btnLoadUrl.UseVisualStyleBackColor = true;
+            btnLoadUrl.Click += btnLoadUrl_Click;
+            // 
+            // MainForm
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1001, 445);
+            Controls.Add(btnLoadUrl);
+            Controls.Add(pbImage);
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "MainForm";
+            Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)pbImage).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private PictureBox pbImage;
+        private Button btnLoadUrl;
     }
 }
