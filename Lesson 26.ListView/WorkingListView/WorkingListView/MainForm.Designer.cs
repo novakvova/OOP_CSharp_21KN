@@ -28,18 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            ListViewItem listViewItem3 = new ListViewItem("Мої файли");
-            ListViewItem listViewItem4 = new ListViewItem("Документи");
+            ListViewItem listViewItem1 = new ListViewItem("Мої файли");
+            ListViewItem listViewItem2 = new ListViewItem("Документи");
             myListView = new ListView();
             label1 = new Label();
             btnAdd = new Button();
+            cbDrivers = new ComboBox();
             SuspendLayout();
             // 
             // myListView
             // 
-            listViewItem3.UseItemStyleForSubItems = false;
-            listViewItem4.UseItemStyleForSubItems = false;
-            myListView.Items.AddRange(new ListViewItem[] { listViewItem3, listViewItem4 });
+            listViewItem1.UseItemStyleForSubItems = false;
+            listViewItem2.UseItemStyleForSubItems = false;
+            myListView.Items.AddRange(new ListViewItem[] { listViewItem1, listViewItem2 });
             myListView.Location = new Point(12, 74);
             myListView.Name = "myListView";
             myListView.Size = new Size(1077, 495);
@@ -67,11 +68,21 @@
             btnAdd.UseVisualStyleBackColor = true;
             btnAdd.Click += btnAdd_Click;
             // 
+            // cbDrivers
+            // 
+            cbDrivers.FormattingEnabled = true;
+            cbDrivers.Location = new Point(817, 21);
+            cbDrivers.Name = "cbDrivers";
+            cbDrivers.Size = new Size(263, 33);
+            cbDrivers.TabIndex = 3;
+            cbDrivers.SelectedIndexChanged += cbDrivers_SelectedIndexChanged;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1101, 581);
+            Controls.Add(cbDrivers);
             Controls.Add(btnAdd);
             Controls.Add(label1);
             Controls.Add(myListView);
@@ -86,5 +97,6 @@
         private ListView myListView;
         private Label label1;
         private Button btnAdd;
+        private ComboBox cbDrivers;
     }
 }
