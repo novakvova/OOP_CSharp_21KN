@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnLogin = new Button();
+            lbEmail = new Label();
             SuspendLayout();
             // 
             // btnLogin
@@ -41,19 +42,33 @@
             btnLogin.UseVisualStyleBackColor = true;
             btnLogin.Click += btnLogin_Click;
             // 
+            // lbEmail
+            // 
+            lbEmail.AutoSize = true;
+            lbEmail.Font = new Font("Segoe UI", 15.8571434F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            lbEmail.ForeColor = Color.Green;
+            lbEmail.Location = new Point(352, 31);
+            lbEmail.Name = "lbEmail";
+            lbEmail.Size = new Size(128, 50);
+            lbEmail.TabIndex = 1;
+            lbEmail.Text = "label1";
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(986, 575);
+            Controls.Add(lbEmail);
             Controls.Add(btnLogin);
             Name = "MainForm";
             Text = "Головне вікно";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnLogin;
+        private Label lbEmail;
     }
 }
