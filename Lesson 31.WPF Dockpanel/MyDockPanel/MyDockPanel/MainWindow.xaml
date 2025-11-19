@@ -1,0 +1,24 @@
+﻿<Window x:Class="MyDockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyDockPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Left" 
+                    Width="150" Margin="10,30">
+            <Button>Кнопка А</Button>
+            <Button>Кнопка B</Button>
+        </StackPanel>
+        <!--Позиціонування у горі елементи будуть іти в один ряд:-->
+        <WrapPanel DockPanel.Dock="Top" Margin="5">
+            <Button Padding="5">Кнопка 1</Button>
+            <Button Padding="5">Кнопка 2</Button>
+        </WrapPanel>
+        <Button DockPanel.Dock="Right">Права панель</Button>
+        <Button DockPanel.Dock="Bottom">Нижня панель</Button>
+        <Button>Моя кнопка</Button>
+    </DockPanel>
+</Window>

@@ -1,0 +1,20 @@
+На лівій панелі ми маємо список фільмів.
+Коли клієкаємо на певний фільм 
+у центральній частині DockPanel
+має відображатися інформція про даний фільм.
+Можна використати ООП і на 12 балів має відобразатися фото фільму.
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Left" 
+                    Width="150" Margin="10,30">
+            <Button>Кнопка А</Button>
+            <Button>Кнопка B</Button>
+        </StackPanel>
+        <!--Позиціонування у горі елементи будуть іти в один ряд:-->
+        <WrapPanel DockPanel.Dock="Top" Margin="5">
+            <Button Padding="5">Кнопка 1</Button>
+            <Button Padding="5">Кнопка 2</Button>
+        </WrapPanel>
+        <Button DockPanel.Dock="Right">Права панель</Button>
+        <Button DockPanel.Dock="Bottom">Нижня панель</Button>
+        <Button>Моя кнопка</Button>
+    </DockPanel>

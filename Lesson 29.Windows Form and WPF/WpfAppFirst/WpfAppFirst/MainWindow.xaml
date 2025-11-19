@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfAppFirst.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppFirst"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Button x:Name="btnTest"
+                Canvas.Left="45" Canvas.Top="39" 
+                Height="48" Width="116" 
+                HorizontalAlignment="Left" VerticalAlignment="Center" 
+                Click="btnTest_Click">
+            <Button.Content>
+                <StackPanel>
+                    <TextBlock Foreground="#CCC33535">
+                        Привіт!
+                    </TextBlock>
+                    <TextBlock Foreground="#FF0E34F4" FontSize="14">
+                        Друже
+                    </TextBlock>
+                </StackPanel>
+            </Button.Content>
+        </Button>
+
+    </Canvas>
+</Window>
