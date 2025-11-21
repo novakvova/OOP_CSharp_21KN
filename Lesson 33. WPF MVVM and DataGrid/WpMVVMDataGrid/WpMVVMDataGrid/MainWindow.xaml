@@ -12,9 +12,9 @@
             <Button Name="btnEditUser" Click="btnEditUser_Click">Редагувати</Button>
         </StackPanel>
 
-        <DataGrid Name="dgUsers">
+        <DataGrid Name="dgUsers" AutoGenerateColumns="False">
             <DataGrid.Columns>
-                <DataGridTemplateColumn Header="Image">
+                <DataGridTemplateColumn Header="Фото">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Image Width="50" Height="100" 
@@ -22,6 +22,17 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
+                
+                <DataGridTextColumn Header="Ім'я" 
+                                    Binding="{Binding Name}"
+                                    MinWidth="200"
+                                    MaxWidth="400"/>
+
+                <DataGridTextColumn Header="Телефон" 
+                                    Binding="{Binding Phone}"
+                                    MinWidth="150"
+                                    MaxWidth="200"/>
+
             </DataGrid.Columns>
         </DataGrid>
 

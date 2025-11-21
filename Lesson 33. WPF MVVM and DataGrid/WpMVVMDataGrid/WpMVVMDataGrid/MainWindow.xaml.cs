@@ -25,6 +25,7 @@ namespace WpMVVMDataGrid
             UserVM newUser = new UserVM();
             newUser.Id = users.Count + 1;
             newUser.Name = "New User " + newUser.Id;
+            newUser.Phone = "+38(050) 111 22 33";
             newUser.Image = "https://i.pinimg.com/originals/43/06/3c/43063c8162fbbae1cf37df742d2afa1c.jpg";
 
             users.Add(newUser);
@@ -35,6 +36,8 @@ namespace WpMVVMDataGrid
         {
             users[0]
                 .Image = "https://assets.dots.live/misteram-public/01978356-8ff2-7017-bbaa-b3367d576463-826x0.png";
+
+            users[0].Phone = "+38(067) 999 88 77";
         }
     }
 }

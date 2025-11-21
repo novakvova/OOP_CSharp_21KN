@@ -14,6 +14,21 @@ public class UserVM : INotifyPropertyChanged
 
     private string _image;
 
+    private string _phone;
+
+    public string Phone
+    {
+        get { return _phone; }
+        set 
+        { 
+            if (_phone != value) {
+                _phone = value;
+                NotifyPropertyChanged(nameof(Phone));
+            }
+        }
+    }
+
+
     public string Name
     {
         get { return _name; }
@@ -22,7 +37,7 @@ public class UserVM : INotifyPropertyChanged
             if (_name != value) 
             {
                 _name = value;
-                NotifyPropertyChanged("Name");
+                NotifyPropertyChanged(nameof(Name));
             }
              
         }
@@ -36,7 +51,7 @@ public class UserVM : INotifyPropertyChanged
             if (_image != value)
             {
                 _image = value;
-                NotifyPropertyChanged("Image");
+                NotifyPropertyChanged(nameof(Image));
             }
         }
     }
