@@ -1,0 +1,20 @@
+﻿<Window x:Class="MyFilesWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyFilesWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Right">
+            <Button Name="btnWriteFile" 
+                    Content="Записати дані у файл" 
+                    Margin="5" 
+                    Click="btnWriteFile_Click" />
+        </StackPanel>
+        <DataGrid>
+
+        </DataGrid>
+    </DockPanel>
+</Window>

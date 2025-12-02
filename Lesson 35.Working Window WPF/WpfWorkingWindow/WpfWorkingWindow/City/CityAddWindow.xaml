@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfWorkingWindow.City.CityAddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfWorkingWindow.City"
+        mc:Ignorable="d"
+        Title="CityAddWindow" Height="536" Width="551">
+    <StackPanel Margin="20">
+        <TextBlock Text="Назва міста:" 
+                   FontSize="24" 
+                   Foreground="Blue"
+                   FontWeight="Bold"/>
+        <TextBox x:Name="txtCityName" 
+                 FontSize="24" Margin="0,10,0,20"/>
+
+        <TextBlock Text="Фото міста:" 
+                   FontSize="24" 
+                   Foreground="Blue"
+                   FontWeight="Bold"/>
+        <TextBox x:Name="txtCityImage" 
+                 FontSize="24" Margin="0,10,0,20"/>
+
+        <TextBlock Text="Кількість населення:" 
+                   FontSize="24" 
+                   Foreground="Blue"
+                   FontWeight="Bold"/>
+        
+        <TextBox x:Name="txtCityPopulation" 
+                 FontSize="24" Margin="0,10,0,20"/>
+
+        <TextBlock Text="Площа міста:" 
+                   FontSize="24" 
+                   Foreground="Blue"
+                   FontWeight="Bold"/>
+        <TextBox x:Name="txtCityArea" 
+                 FontSize="24" Margin="0,10,0,20"/>
+
+        <WrapPanel HorizontalAlignment="Center">
+            <Button x:Name="btnAddCity" 
+                    Content="Додати місто" 
+                    FontSize="24" 
+                    Padding="10,5" 
+                    Margin="10" Click="btnAddCity_Click"/>
+            <Button x:Name="btnCancel" 
+                    Content="Відмінити" 
+                    FontSize="24" 
+                    Padding="10,5" 
+                    Margin="10" Click="btnCancel_Click"/>
+        </WrapPanel>
+    </StackPanel>
+</Window>
