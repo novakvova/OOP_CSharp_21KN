@@ -1,0 +1,52 @@
+﻿using Microsoft.Data.Sqlite;
+namespace WpfForSQLite;
+
+public class UserManager
+{
+    // SQLite connection string
+    string connectionDB = @"Data Source=mydb.db";
+    string sql = "CREATE TABLE IF NOT EXISTS users (" +
+        "Id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+        "Email TEXT NOT NULL UNIQUE, " +
+        "FirstName TEXT NOT NULL, " +
+        "LastName TEXT NOT NULL, " +
+        "Phone TEXT, " +
+        "Password TEXT NOT NULL);";
+
+    public UserManager()
+    {
+        InitializeFileDB();
+    }
+
+    // Ініціалізація файлової БД
+    private void InitializeFileDB()
+    {
+        //З'єднання з файлом БД
+        var connection = new SqliteConnection(connectionDB);
+        //відкриття з'єднання
+        connection.Open();
+        //Створення команди
+        var command = connection.CreateCommand();
+        command.CommandText = sql; //текст команди на виконання
+        command.ExecuteNonQuery(); //виконання команди
+        connection.Close(); //закриття з'єднання
+    }
+
+    public void CreateUser(MyUser user)
+    {
+        using var connection = new SqliteConnection(connectionDB);
+        connection.Open();
+        var command = connection.CreateCommand();
+        command.CommandText =
+        @"
+            INSERT INTO users (Email, FirstName, LastName, Phone, Password)
+            VALUES ($email, $firstName, $lastName, $phone, $password);
+        ";
+        command.Parameters.AddWithValue("$email", user.Email);
+        command.Parameters.AddWithValue("$firstName", user.FirstName);
+        command.Parameters.AddWithValue("$lastName", user.LastName);
+        command.Parameters.AddWithValue("$phone", user.Phone);
+        command.Parameters.AddWithValue("$password", user.Password);
+        command.ExecuteNonQuery();
+    }
+}

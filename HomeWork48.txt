@@ -1,0 +1,99 @@
+Прокоментувати код класної роботи і написати пояснення по коду
+using Bogus;
+using Newtonsoft.Json;
+using System.IO;
+using System.Text;
+using System.Windows;
+
+namespace MyUsersApp
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void btnInitList_Click(object sender, RoutedEventArgs e)
+        {
+            UserItemModel user = new UserItemModel();
+
+            Faker<UserItemModel> faker = new Faker<UserItemModel>("uk")
+                .RuleFor(u => u.Id, f => f.Random.Guid().ToString())
+                .RuleFor(u => u.FirstName, f => f.Name.FirstName())
+                .RuleFor(u => u.LastName, f => f.Name.LastName())
+                .RuleFor(u => u.Email, f => f.Internet.Email())
+                .RuleFor(u => u.Phone, f => f.Phone.PhoneNumber())
+                .RuleFor(u => u.Image, f => f.Internet.Avatar());
+
+            var userList = faker.Generate(10);
+
+            List<UserItemModel> usersOld = new List<UserItemModel>();
+            if (File.Exists("users.json"))
+            {
+                var oldDataJson = File.ReadAllText("users.json");
+                usersOld = JsonConvert.DeserializeObject<List<UserItemModel>>(oldDataJson);
+            }
+            //Читаємо стані дані із файлу
+            usersOld.AddRange(userList); //додаю до старих користувачів нових користувачів
+            var jsonData = JsonConvert.SerializeObject(usersOld);
+
+            File.WriteAllText("users.json", jsonData, Encoding.UTF8);
+        }
+
+        private void btnViewList_Click(object sender, RoutedEventArgs e)
+        {
+            var users = new List<UserItemModel>();
+            if (File.Exists("users.json"))
+            {
+                string json = File.ReadAllText("users.json");
+                users = JsonConvert.DeserializeObject<List<UserItemModel>>(json);
+            }
+            var countList = users.Count;
+            MessageBox.Show("Кількість користувачів " + countList);
+            //foreach(var user in users)
+            //    MessageBox.Show(user.ToString());
+
+        }
+
+        private void btnClearList_Click(object sender, RoutedEventArgs e)
+        {
+            if(File.Exists("users.json"))
+            {
+                File.Delete("users.json");
+            }
+        }
+    }
+}
+
+
+<Window x:Class="MyUsersApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyUsersApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <WrapPanel Margin="10" DockPanel.Dock="Top">
+            <Button Name="btnViewList" 
+                    Width="120" Height="30" Margin="5"
+                    Content="Відобразити список" Click="btnViewList_Click" />
+
+            <Button Name="btnInitList" 
+                Width="130" Height="30" Margin="5"
+                Content="Початкова ініціалізація" Click="btnInitList_Click" />
+
+            <Button Name="btnClearList" 
+                Foreground="Red"
+                Width="150" Height="30" Margin="5"
+                Content="Очистити список" Click="btnClearList_Click" />
+
+        </WrapPanel>
+
+    </DockPanel>
+</Window>
