@@ -15,7 +15,7 @@
                     Click="btnUploadImage_Click"/>
         </StackPanel>
         <Grid>
-            
+            <Image Name="imgUploadFile"/>
         </Grid>
     </DockPanel>
 </Window>
